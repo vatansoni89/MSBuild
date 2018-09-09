@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Name>Vatan</Name>
+    <FullName>$(Name)</FullName>
+  </PropertyGroup>
+  
+    <Target Name="GoodByeWorld">
+      <Message Text="Goodbye,,,, $(FullName)" Importance="high">
+
+      </Message>
+  </Target>
+
+  <Target Name="HelloWorld">
+    <Message Text="Hello,,,, Wold" Importance="low">
+
+    </Message>
+  </Target>
+  
+  
+</Project>
