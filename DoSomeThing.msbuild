@@ -4,6 +4,10 @@
     <Name>Vatan</Name>
     <FullName>$(Name)</FullName>
   </PropertyGroup>
+
+  <Target Name="ReservedProp">
+    <Message Text="MSBuildProjectDirectory: $(MSBuildProjectDirectory)"></Message>
+  </Target>
   
     <Target Name="GoodByeWorld">
       <Message Text="Goodbye,,,, $(FullName)" Importance="high">
@@ -12,7 +16,7 @@
   </Target>
 
   <Target Name="HelloWorld">
-    <Message Text="Hello,,,, Wold" Importance="high">
+    <Message Text="Hello,,,, World" Importance="high">
 
     </Message>
   </Target>
