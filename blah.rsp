@@ -1,2 +1,2 @@
-/target:HelloWorld,GoodByeWorld
-/v:normal
+/target:HelloWorld,GoodByeWorld,ReservedProps
+/v:detailed

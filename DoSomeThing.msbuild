@@ -5,8 +5,9 @@
     <FullName>$(Name)</FullName>
   </PropertyGroup>
 
-  <Target Name="ReservedProp">
-    <Message Text="MSBuildProjectDirectory: $(MSBuildProjectDirectory)"></Message>
+  <Target Name="ReservedProps">
+    <Message Text="MSBuildProjectDirectory : $(MSBuildProjectDirectory)"></Message>
+    <Message Text="LogonServer : $(LogonServer)"></Message>
   </Target>
   
     <Target Name="GoodByeWorld">
