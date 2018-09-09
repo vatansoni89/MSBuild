@@ -12,7 +12,7 @@
   </Target>
 
   <Target Name="HelloWorld">
-    <Message Text="Hello,,,, Wold" Importance="low">
+    <Message Text="Hello,,,, Wold" Importance="high">
 
     </Message>
   </Target>
